@@ -25,7 +25,7 @@
 }
 
 .preview-pane pre {
-  background: #eceef2;
+  background: #f0eafc;
   padding: 0.5rem;
   border-radius: 6px;
   overflow-x: auto;
@@ -33,7 +33,7 @@
 
 .preview-pane code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  background: #eceef2;
+  background: #f0eafc;
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
 }
