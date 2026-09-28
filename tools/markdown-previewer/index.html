@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Markdown Previewer — Tools &amp; Lessons</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Markdown Previewer</h1>
+    <p>Type Markdown on the left, see it rendered on the right.</p>
+  </header>
+
+  <main>
+    <a class="back-link" href="../../index.html">&larr; Back to Tools &amp; Lessons</a>
+
+    <div class="tool-panel">
+      <div class="preview-columns">
+        <div>
+          <label for="markdown-input">Markdown</label>
+          <textarea id="markdown-input" rows="16">## Hello world
+
+This is **bold**, this is *italic*, and this is `inline code`.
+
+- First item
+- Second item
+
+[Learn more](https://example.com)</textarea>
+        </div>
+        <div>
+          <label>Preview</label>
+          <div id="markdown-preview" class="preview-pane"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p><a class="back-link" href="../../index.html">&larr; Back to Tools &amp; Lessons</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

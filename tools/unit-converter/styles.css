@@ -1,0 +1,22 @@
+.converter-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.converter-row > div:not(.converter-arrow) {
+  flex: 1;
+  min-width: 160px;
+}
+
+.converter-row select {
+  margin-top: 0.5rem;
+}
+
+.converter-arrow {
+  font-size: 1.5rem;
+  color: var(--color-muted);
+  padding-bottom: 0.6rem;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unit Converter — Tools &amp; Lessons</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Unit Converter</h1>
+    <p>Convert between common length, weight, and temperature units.</p>
+  </header>
+
+  <main>
+    <a class="back-link" href="../../index.html">&larr; Back to Tools &amp; Lessons</a>
+
+    <div class="tool-panel">
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="length">Length</option>
+        <option value="weight">Weight</option>
+        <option value="temperature">Temperature</option>
+      </select>
+
+      <div class="converter-row">
+        <div>
+          <label for="from-value">From</label>
+          <input id="from-value" type="number" value="1" inputmode="decimal">
+          <select id="from-unit"></select>
+        </div>
+        <div class="converter-arrow">&rarr;</div>
+        <div>
+          <label for="to-value">To</label>
+          <input id="to-value" type="number" readonly>
+          <select id="to-unit"></select>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p><a class="back-link" href="../../index.html">&larr; Back to Tools &amp; Lessons</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
